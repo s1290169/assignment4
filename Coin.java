@@ -39,10 +39,10 @@ public class Coin{
         }
         System.out.println("Heads: "+count1+", Tails: "+count2);
         if(count1 > count2){
-            System.out.println("You won");
+            System.out.println(name+"　won");
         }
         else{
-            System.out.println("You lose");
+            System.out.println(name+"　lose");
         }
     }
 }
